@@ -1,7 +1,7 @@
 import type { APIRoute } from "astro";
 
 // This endpoint must run on the server at runtime
-export const prerender = false;
+export const prerender = true;
 
 type Body = {
   question?: string;
